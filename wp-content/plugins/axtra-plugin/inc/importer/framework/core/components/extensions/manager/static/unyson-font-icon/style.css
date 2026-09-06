@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'unyson-font-icon';
+	src:url('/wp-content/plugins/axtra-plugin/inc/importer/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.eot?iganyx');
+	src:url('/wp-content/plugins/axtra-plugin/inc/importer/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.eot#iefixiganyx') format('embedded-opentype'),
+		url('/wp-content/plugins/axtra-plugin/inc/importer/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.woff?iganyx') format('woff'),
+		url('/wp-content/plugins/axtra-plugin/inc/importer/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.ttf?iganyx') format('truetype'),
+		url('/wp-content/plugins/axtra-plugin/inc/importer/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.svg?iganyx#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.toplevel_page_fw-extensions > .wp-menu-image:before {
+	font-family: 'unyson-font-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	content: "\e600";
+	font-size: 14px;
+	line-height: 20px;
+}
